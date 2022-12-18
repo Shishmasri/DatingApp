@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'The Dating App';
+  title = 'First Dating App';
   users:any;
   constructor(private http: HttpClient){}
   ngOnInit() {
